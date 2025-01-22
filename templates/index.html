@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People and Emotion Counter</title>
+</head>
+<body>
+    <h1>People and Emotion Counter</h1>
+    <p>Click the button below to start the video feed.</p>
+    <button onclick="startCamera()">Start Camera</button>
+    <div>
+        <img id="videoFeed" src="" width="640" height="480" alt="Video feed will appear here.">
+    </div>
+
+    <script>
+        function startCamera() {
+            document.getElementById("videoFeed").src = "/start_camera";
+        }
+    </script>
+</body>
+</html>
