@@ -1,5 +1,5 @@
 Flask==2.2.3
-opencv-python==4.11.0
+opencv-python==4.8.0.74  # Updated OpenCV version to a compatible one
 deepface==0.0.75
 tensorflow==2.13.0
 numpy==1.24.3
